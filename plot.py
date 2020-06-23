@@ -44,7 +44,7 @@ def retrieve_ratings(id, cr):
 
 # Retrieve the name for a restaurant from the Restaurants table 
 def retrieve_name(id, cr):
-    cr.execute('SELECT name, address, reviews FROM Restaurants WHERE id = ?', (id, ))
+    cr.execute('SELECT name FROM Restaurants WHERE id = ?', (id, ))
     name = cr.fetchone()[0]
 
     return name
