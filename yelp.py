@@ -180,11 +180,24 @@ def update_or_insert(ind, cr, cn):
         yelpids = retrieve_yelpids(cr)
         for yelpid in yelpids:
             data, response = get_data_id(yelpid)
-            update_data(data, cr, cn, yelpid)
+            try:
+                update_data(data, cr, cn, yelpid)
+                
+            except:
+                error = data['error']['code']
+                print('A',error,'occurred.')
+                quit()
 
     else:
         data, response = get_data_search()
-        restaurants = data['businesses']
+        try:
+            restaurants = data['businesses']
+            
+        except:
+            error = data['error']['code']
+            print('A',error,'occurred.')
+            quit()
+
         for restaurant in restaurants:
             insert_data(restaurant, cur, conn)
 
