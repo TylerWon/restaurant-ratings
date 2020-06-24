@@ -181,7 +181,6 @@ def update_or_insert(ind, cr, cn):
             data, response = get_data_id(yelpid)
             try:
                 update_data(data, cr, cn, yelpid)
-                
             except:
                 error = data['error']['code']
                 print('A',error,'occurred.')
