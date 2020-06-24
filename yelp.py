@@ -62,7 +62,6 @@ def check_database(cr):
     if total is None:
         print('No data found.')
         indicator = False
-
     else:
         print('Data found, checking for new ratings...')
         indicator = True
@@ -187,12 +186,10 @@ def update_or_insert(ind, cr, cn):
                 error = data['error']['code']
                 print('A',error,'occurred.')
                 quit()
-
     else:
         data, response = get_data_search()
         try:
             restaurants = data['businesses']
-            
         except:
             error = data['error']['code']
             print('A',error,'occurred.')
