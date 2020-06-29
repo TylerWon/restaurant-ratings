@@ -11,11 +11,10 @@ Clone this repository to your computer and use the following command to install 
 $ pip install -r requirements.txt
 '''
 
-obtain an API key from the [Yelp Fusion API website](https://www.yelp.com/fusion). 
-
-
+Obtain an API key from the [Yelp Fusion API website](https://www.yelp.com/fusion) and paste it into 'hidden.py' as a string.
 
 ## Usage
+
 
 ## Built With
 * [Yelp Fusion API](https://www.yelp.com/fusion) - Provides information of over 50 million restaurants
