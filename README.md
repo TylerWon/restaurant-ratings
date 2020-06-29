@@ -14,7 +14,7 @@ Obtain an API key from the [Yelp Fusion API website](https://www.yelp.com/fusion
 
 
 ## Built With
-* [Yelp Fusion API](https://www.yelp.com/fusion) - Provides information of over 50 million restaurants
+* [Yelp Fusion API](https://www.yelp.com/fusion) - Provides information about restaurants with a Yelp rating
 * [SQLite](https://www.sqlite.org/index.html) - The database engine used
 * [matplotlib](https://matplotlib.org/) - Used to create the visualization
 
