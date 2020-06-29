@@ -58,11 +58,12 @@ def plot_data(cr):
         name = retrieve_name(id, cr)
 
         plt.plot(dates, ratings, label=name)
-        
+
     plt.title('Change in Ratings of New Restaurants')
     plt.xlabel('Date')
+    # plt.xticks(rotation=45)   # see if it is requried
     plt.ylabel('Rating')
-    plt.legend(fontsize=8)
+    plt.legend()
 
     plt.show()
 
