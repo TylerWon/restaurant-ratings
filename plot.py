@@ -61,7 +61,7 @@ def plot_data(cr):
 
     plt.title('Change in Ratings of New Restaurants')
     plt.xlabel('Date')
-    # plt.xticks(rotation=45)   # see if it is requried
+    plt.xticks(rotation=45)
     plt.ylabel('Rating')
     plt.legend()
 
