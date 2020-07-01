@@ -6,11 +6,7 @@ This is a simple Python application that retrieves information about new restaur
 ## Features (?)
 
 ## Setup
-1. Clone this repository to your computer and use 
-'''python
-$ pip install -r requirements.txt
-''' 
-to install the packages that are required to run the application.
+1. Clone this repository to your computer and use `$ pip install -r requirements.txt` to install the packages that are required to run the application.
 
 2. Obtain an API key from the [Yelp Fusion API website](https://www.yelp.com/fusion) and paste it into 'hidden.py' as a string.
 
