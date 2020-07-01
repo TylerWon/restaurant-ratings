@@ -1,12 +1,12 @@
 # Restaurant Ratings
-This is a simple Python application that retrieves information about new restaurants from the Yelp Fusion API, stores the data in a SQL database, and plots the data in the form of a line graph using matplotlib. 
+This is a simple Python application that retrieves information about new restaurants from the **Yelp Fusion API**, stores the data in a **SQLite** database, and plots the data in the form of a line graph using **matplotlib**. 
 
 ## VISUAL (insert later)
 
 ## Features (?)
 
 ## Setup
-1. Clone this repository to your computer and use `$ pip install -r requirements.txt` to install the packages that are required to run the application.
+1. Clone this repository to your computer and use the command `$ pip install -r requirements.txt` to install the packages that are required to run the application.
 
 2. Obtain an API key from the [Yelp Fusion API website](https://www.yelp.com/fusion) and paste it into 'hidden.py' as a string.
 
