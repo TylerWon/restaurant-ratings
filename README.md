@@ -6,7 +6,7 @@ This is a simple Python application that retrieves information about new restaur
 ## Setup
 1. Clone this repository to your computer and use the command `$ pip install -r requirements.txt` to install the packages that are required to run the application.
 
-2. Obtain an API key from the Yelp Fusion API [website](https://www.yelp.com/fusion) and paste it into `hidden.py` as a string.
+2. Obtain an API key from the [Yelp Fusion API](https://www.yelp.com/fusion) website and paste it into `hidden.py` as a string.
 
 ## Usage
 After following the steps outlined in [Setup](https://github.com/TylerWon/restaurant-ratings#setup), run `yelp.py`.
